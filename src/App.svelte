@@ -5,8 +5,8 @@
                 <span><span>Example Svelte</span></span>
             </h2>
             <h3 class="custom-month-year">
-                <span id="custom-month" class="custom-month"></span>
-                <span id="custom-year" class="custom-year"></span>
+                <span id="custom-month" class="custom-month">{ cal.monthName }</span>
+                <span id="custom-year" class="custom-year">{ cal.year }</span>
                 <nav>
                     <span id="custom-prev" class="custom-prev" on:click={() => cal = cal.previousMonth() } title="Go to previous month"></span>
                     <span id="custom-next" class="custom-next" on:click={() => cal = cal.nextMonth() } title="Go to next month"></span>

@@ -14,7 +14,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "calendariofx-calendario": "^7.0.0-alpha.4",
+    "calendariofx-calendario": "^7.0.0-alpha.5",
     "sirv-cli": "^0.4.4"
   },
   "scripts": {
@@ -23,5 +23,6 @@
     "dev": "run-p start:dev autobuild",
     "start": "sirv public --single",
     "start:dev": "sirv public --single --dev"
-  }
+  },
+  "license": "Unlicense"
 }
